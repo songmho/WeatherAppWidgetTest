@@ -20,8 +20,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         title=(TextView)findViewById(R.id.title);
         toggleBt=(ToggleButton)findViewById(R.id.toggleBt);
         toggleBt.setOnClickListener(this);
-
-
     }
 
 
