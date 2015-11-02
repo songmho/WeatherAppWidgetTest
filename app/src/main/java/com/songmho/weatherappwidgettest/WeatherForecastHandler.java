@@ -4,6 +4,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Handler;
 import android.os.Message;
+import android.util.Log;
 
 /**
  * Created by songmho on 2015-11-01.
@@ -20,11 +21,10 @@ public class WeatherForecastHandler extends Handler {
         WeatherForecast wf=(WeatherForecast)msg.obj;
 
         Intent intent=new Intent();
-        intent.putExtra("region",wf.region);
-        intent.putExtra("desc",wf.desc);
-        intent.putExtra("ta",wf.ta);
+        intent.putExtra("region", wf.region);
+        intent.putExtra("desc", wf.desc);
+        intent.putExtra("ta", wf.ta);
         intent.setAction("android.intent.action.WEATHER_FORECAST_RECEIVED");
-
         context.sendBroadcast(intent);
     }
 }

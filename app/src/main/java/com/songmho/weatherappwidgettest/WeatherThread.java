@@ -2,9 +2,7 @@ package com.songmho.weatherappwidgettest;
 
 import android.os.Handler;
 import android.os.Message;
-import org.xmlpull.v1.XmlPullParser;
-import org.xmlpull.v1.XmlPullParserException;
-import org.xmlpull.v1.XmlPullParserFactory;
+import org.xmlpull.v1.*;
 
 import java.io.IOException;
 import java.net.MalformedURLException;

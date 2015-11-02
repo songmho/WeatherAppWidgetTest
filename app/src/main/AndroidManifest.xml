@@ -18,6 +18,7 @@
             </intent-filter>
         </activity>
 
+        <service android:name=".WeatherService"/>
         <receiver android:name="WeatherAppWidgetProvider">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
