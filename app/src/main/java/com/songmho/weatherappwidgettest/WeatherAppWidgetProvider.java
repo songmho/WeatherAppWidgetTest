@@ -32,6 +32,7 @@ public class WeatherAppWidgetProvider extends AppWidgetProvider {
 
         }
 
+
             AppWidgetManager appWidgetManager = AppWidgetManager.getInstance(context);
 
             RemoteViews remote = new RemoteViews(context.getPackageName(), R.layout.weatherview);
