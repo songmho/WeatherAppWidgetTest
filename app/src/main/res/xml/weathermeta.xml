@@ -2,6 +2,6 @@
 
 <appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
     android:updatePeriodMillis="0"
-    android:minHeight="180dp"
-    android:minWidth="180dp"
+    android:minHeight="60dp"
+    android:minWidth="60dp"
     android:initialLayout="@layout/weatherview"/>
